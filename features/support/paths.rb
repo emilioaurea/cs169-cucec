@@ -34,7 +34,7 @@ module NavigationHelpers
     when /^the student Read page$/
       '/'
     when /^the student Write page$/
-      '/'
+      student_writing_index_path(1)
     when /^the student Watch page$/
       '/'
     when /^the Chat page$/
@@ -44,6 +44,7 @@ module NavigationHelpers
       '/'
     when /^the donation page$/
       '/donate/new'
+    when /^the [S|s]tudent [N|n]avigation page$/
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

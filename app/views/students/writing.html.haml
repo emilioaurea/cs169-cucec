@@ -1,0 +1,7 @@
+
+%h1 Writing
+= form_tag student_writing_index_path, :id => "student_writing"  do
+  = text_area(:student_writing, "essay", size: "100x4")
+  = submit_tag 'upload'
+
+

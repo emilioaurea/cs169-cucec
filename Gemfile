@@ -28,7 +28,8 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'devise'
 # Font Awesome
 gem 'font-awesome-rails'
-gem 'haml'
+# Haml is the best
+gem 'haml-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
